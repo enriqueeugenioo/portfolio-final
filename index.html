@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enrique's Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="images/ChatGPT Image Aug 14, 2025, 04_44_38 PM.png"
+            class="logo"
+            alt="Enrique Logo"
+          />
+          <ul id="navLinks">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><i class="fa fa-times"onclick="hideMenu()"></i></li>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web Designer</p>
+          <h1>Hi, <span>Enrique </span>Eugenio From Philippines</h1>
+        </div>
+      </div>
+    </div>
+
+    <!---------About---------->
+    <div id="about">
+      <div class="container">
+        <div class="row about-row">
+          <div class="about-col-1">
+            <img src="images/about.jpg" class="about-img" alt="About Enrique" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm Enrique, a passionate web designer from the Philippines who
+              loves creating clean, modern, and user-friendly websites. I enjoy
+              combining<br> creativity with functionality to bring ideas to life.
+               I’m always eager to learn new technologies and improve my skills, <br>whether it’s front-end styling, JavaScript interactivity, or back-end development.
+            </p>
+            <div class="tab-title">
+              <p
+                class="tab-links active-link"
+                onclick="opentab(event, 'skills')"
+              >
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'education')">
+                Education
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web</span><br />Designing Web/App Interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li>
+                  <span>App Development</span><br />Designing Web/App Interfaces
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Web</span><br />Web Development Intern| Mapple.Inc
+                </li>
+                <li>
+                  <span>Computer Technology</span><br />Dr. Yanga's Colleges
+                  Inc. Intern
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>HighSchool</span><br />Sto. Nino Academy</li>
+                <li>
+                  <span>College</span><br />Associate Degree in Computer
+                  Technology
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------services---------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div class="service">
+            <h2>Web Design</h2>
+            <p>
+              Creating clean, modern, and responsive website designs that work
+              on all devices.
+            </p>
+          </div>
+          <div class="service">
+            <h2>Web Development</h2>
+            <p>
+              Building functional, fast, and secure web applications using
+              modern technologies.
+            </p>
+          </div>
+          <div class="service">
+            <h2>App UI Design</h2>
+            <p>
+              Designing intuitive and user-friendly interfaces for mobile and
+              desktop apps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------Portfolio--------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work-list">
+  <div class="work">
+    <img src="images/work1.jpg" />
+
+    <div class="layer">
+        <h3>School Intern</h3>
+        <p>Held in Dr. Yanga'Colleges during OJT</p>
+
+    </div>
+  </div>
+  <div class="work">
+    <img src="images/work2.jpg" />
+     <div class="layer">
+        <h3>Aircon Technician</h3>
+        <p>Aircon Installation in Pampanga</p>
+        
+    </div>
+  </div>
+  <div class="work">
+    <img src="images/work3.jpeg" />
+     <div class="layer">
+        <h3>Freelance</h3>
+        <p>A part time job Freelancing</p>
+        
+    </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn">See more</a>
+        </div>
+      </div>
+    </div>
+<!----------contact----------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-envelope"></i> enriquemigueleugenio1@gmail.com</p>
+        <p><i class="fas fa-phone-volume"></i>0998-300-1358</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/quiel.eugenio?rdid=4vOivAAD3ZsK7KH6&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Eh4A6tB3F%2F#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.tiktok.com/@qu13ll?_r=1&_d=secCgYIASAHKAESPgo8gDn2AkTIRc9lCkVchhWKOB6x%2Br6NU8u%2FeOew5TkCFNqABJhCVVFEY8Kvf6u9KmW6JK%2BIyI9JyZSDnsxQGgA%3D&_svg=1&checksum=2d60b42d604b7fdc855ccdce49235109ac9f5ccac8a56ce984c842aa14c04902&item_author_type=1&sec_uid=MS4wLjABAAAAgJlkZV8YfGHBPD-dM5aFFsDt9DwoXXbTl8NQVx_zsYghxg7TbgOZ8wh0YFfgp-Xc&sec_user_id=MS4wLjABAAAAgJlkZV8YfGHBPD-dM5aFFsDt9DwoXXbTl8NQVx_zsYghxg7TbgOZ8wh0YFfgp-Xc&share_app_id=1180&share_author_id=7092643536025912321&share_link_id=f63c94ec-4bfb-4ee1-bfe1-6838bdffae74&share_scene=1&sharer_language=en&social_share_type=5&source=h5_t&timestamp=1755194334&u_code=e1el5jgk44kc0l&ug_btm=b8727%2Cb7360&ugbiz_name=ACCOUNT&user_id=7092643536025912321&utm_campaign=client_share&utm_medium=android&utm_source=copy"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://t.me/Y0orden"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <a href="images/CV_Enrique Miguel Eugenio.pdf"download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <div id="msg"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(event, tabname) {
+        let clickedTab = event.currentTarget;
+        let clickedContent = document.getElementById(tabname);
+
+        // If clicked tab is already active, hide it
+        if (
+          clickedTab.classList.contains("active-link") &&
+          clickedContent.classList.contains("active-tab")
+        ) {
+          clickedTab.classList.remove("active-link");
+          clickedContent.classList.remove("active-tab");
+          return;
+        }
+
+        // Remove active state from all
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        // Activate clicked tab
+        clickedTab.classList.add("active-link");
+        clickedContent.classList.add("active-tab");
+      }
+    </script>
+   <script>
+ const form = document.forms['submit-to-google-sheet'];
+const msg = document.getElementById("msg");
+
+form.addEventListener('submit', e => {
+  e.preventDefault(); // prevent default submission
+
+  // Ensure message is visible
+  msg.style.display = "block";
+  msg.style.color = "green";
+  msg.textContent = "Sending..."; // optional loading text
+
+  fetch('https://script.google.com/macros/s/AKfycbySzxAqrIiD4kAcjtYTO9NqAiY1XH6XXnKNypNY8OzxwzgyRzB7TYv8R3Bk-SRcBIN-/exec', {
+    method: 'POST',
+    body: new FormData(form)
+  })
+  .then(response => {
+    msg.style.display = "block";
+    msg.style.color = "green";
+    msg.textContent = "Message sent successfully!";
+    form.reset();
+
+    // Hide after 5 seconds
+    setTimeout(() => {
+      msg.style.display = "none";
+      msg.textContent = "";
+    }, 5000);
+  })
+  .catch(error => {
+    msg.style.display = "block";
+    msg.style.color = "red";
+    msg.textContent = "Error sending message!";
+    console.error('Error!', error.message);
+  });
+});
+
+</script>
+<script>
+  const navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.classList.add("active");
+  }
+
+  function hideMenu() {
+    navLinks.classList.remove("active");
+  }
+</script>
+
+  </body>
+</html>
